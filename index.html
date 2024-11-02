@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>Basketball</title>
+    <link rel="icon"  type="image/x-icon" href="icons8-basketball-94.png">
+</head>
+<body>
+   
+     <div class="sub-container">
+        <h1>Score board</h1>
+    <div id="container">
+        
+    
+       <div id="scoreboard"> 
+        <h3>HOME</h3>
+        <div id="main-box">
+          <div class="box">
+            <h2 id="home-score">0</h2>
+          </div>
+        </div>
+
+      <div id="btn-container">
+          <button onclick="add1()">+1</button>
+          <button onclick="add2()">+2</button>
+          <button onclick="add3()">+3</button>
+          <button onclick="resetHome()">Reset</button>
+      </div>
+       </div>
+    
+    
+        <div id="scoreboard">
+         <h3>GUEST</h3>       
+          <div id="main-box">
+            <div class="box">
+              <h2 id="guest-score">0</h2>
+            </div>
+          </div>
+
+         <div id="btn-container">
+            <button onclick="pluse1()">+1</button>
+             <button onclick="pluse2()">+2</button>
+             <button onclick="pluse3()">+3</button>
+             <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+</div>
+    <script src="web.js"></script>
+</body>
+</html>
